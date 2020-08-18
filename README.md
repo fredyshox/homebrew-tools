@@ -15,10 +15,10 @@ export VERSION=1.0.0
 ```
 
 ```sh
-export URL="https://github.com/fredyshox/AppVideoFramer/archive/${VERSION}.tar.gz"
+export URL="https://github.com/fredyshox/ScreenFramer/archive/${VERSION}.tar.gz"
 wget $URL
 export SHA=$(shasum -a 256 "${VERSION}.tar.gz" | sed 's/ .*//')
-sed -i '' "s,url \".*\",url \"${URL}\"," Formula/avframer.rb
-sed -i '' "s,sha256 \".*\",sha256 \"${SHA}\"," Formula/avframer.rb
+sed -i '' "s,url \".*\",url \"${URL}\"," Formula/screenframer.rb
+sed -i '' "s,sha256 \".*\",sha256 \"${SHA}\"," Formula/screenframer.rb
 rm "${VERSION}.tar.gz"
 ```

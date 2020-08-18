@@ -1,10 +1,10 @@
-class Avframer < Formula
+class Screenframer < Formula
   desc "Frame recordings from your apps using device mockups."
-  homepage "https://github.com/fredyshox/AppVideoFramer"
-  url "https://github.com/fredyshox/AppVideoFramer/archive/1.0.0.tar.gz"
-  sha256 "6bdf311c33d325377e7dc5852d60a72f57921e9caab952a4fa7ad3bebef91527"
+  homepage "https://github.com/fredyshox/ScreenFramer"
+  url "https://github.com/fredyshox/ScreenFramer/archive/1.0.0.tar.gz"
+  sha256 "d288a9af320112cf4d101bfa3b08e61b8e0ea258724ee79856d6d889bde6d0e5"
   license "MIT"
-  head "https://github.com/fredyshox/AppVideoFramer.git", :branch => "master"
+  head "https://github.com/fredyshox/ScreenFramer.git", :branch => "master"
 
   depends_on "cmake" => [:build, "3.16"]
   depends_on "opencv"
