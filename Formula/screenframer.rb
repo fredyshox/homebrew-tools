@@ -1,8 +1,8 @@
 class Screenframer < Formula
   desc "Frame recordings from your apps using device mockups."
   homepage "https://github.com/fredyshox/ScreenFramer"
-  url "https://github.com/fredyshox/ScreenFramer/archive/1.0.0.tar.gz"
-  sha256 "d288a9af320112cf4d101bfa3b08e61b8e0ea258724ee79856d6d889bde6d0e5"
+  url "https://github.com/fredyshox/ScreenFramer/archive/1.1.0.tar.gz"
+  sha256 "f89bc57b59cb6d6e9f32d177f7ceb8f8d18756fca37f41a63103786300b1f55f"
   license "MIT"
   head "https://github.com/fredyshox/ScreenFramer.git", :branch => "master"
 
